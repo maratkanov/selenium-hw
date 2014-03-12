@@ -22,7 +22,8 @@ Example:
 
 Просмотр отчёта о проведении тестов
 ----
-
-1. Следует проследовать в директорию
-> selenium-hw/target/site/thucydides
-2. Открыть файл index.html
+Отчет находится в директории:
+```
+selenium-hw/target/site/thucydides/index.html
+```
+Можно открывать браузером

@@ -18,4 +18,3 @@ mvn -Dwebdriver.remote.url=[your_url] clean integration-test thucydides:aggregat
 
 Example:
 > mvn -Dwebdriver.remote.url=http://127.0.0.1:4444/wd/hub clean integration-test thucydides:aggregate
-2.0

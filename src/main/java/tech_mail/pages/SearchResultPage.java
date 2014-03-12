@@ -25,7 +25,34 @@ public class SearchResultPage extends PageObject {
     @FindBy(className = "sunrise__transit")
     private WebElement dayDuration;
 
+    @FindBy(className = "sunrise__title")
+    private WebElement mixinTitle;
+
+    @FindBy(id = "calSelect")
+    private WebElement calendarSelector;
+
+    public WebElement getCalendarSelector() {
+        return calendarSelector;
+    }
+
     public WebElement getMixin() {
         return sunRiseMixin;
     }
+
+    public String getSunRaiseTime() {
+        return riseTime.getText();
+    }
+
+    public String getSunSetTime() {
+        return setTime.getText();
+    }
+
+    public String getDayDurationTime() {
+        return dayDuration.getText();
+    }
+
+    public String getMixinTitle() {
+        return mixinTitle.getText();
+    }
+
 }

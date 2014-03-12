@@ -7,5 +7,11 @@ public class Application {
     public class Search {
         public class SearchByKeyword {
         }
+
+        public class SearchSunRaiseTimeSpecifiedTest {
+        }
+
+        public class SearchSunRaiseCorrectInputTest {
+        }
     }
 }
